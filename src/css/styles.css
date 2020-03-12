@@ -1,2 +1,36 @@
-body {
-  background: red; }
+nav {
+  background-color: #4B54B3; }
+
+nav img {
+  width: 200px;
+  height: 200px;
+  background-color: #4B54B3; }
+
+nav li {
+  font-family: "Tahoma", Verdana, sans-serif;
+  list-style-type: none;
+  float: right;
+  text-align: center;
+  padding: 60px;
+  text-decoration: none;
+  font-size: 40px;
+  border-radius: 4px; }
+
+nav li a {
+  padding: 10px;
+  color: black; }
+
+nav a:hover {
+  padding: 10px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #f7c308; }
+
+nav li a.active {
+  padding: 10px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #f7c308; }
+
+footer {
+  text-align: center; }
