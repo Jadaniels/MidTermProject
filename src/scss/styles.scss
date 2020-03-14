@@ -1,3 +1,4 @@
+//navigation menu stuff
 nav{
     background-color: #4B54B3;
 }
@@ -38,7 +39,115 @@ nav li a.active {
     color: rgb(247, 195, 8);
   }
 
+  //footer on home page
   footer{
       text-align: center;
   }
+  
+  //images on home page
+  .row img{
+    width: 200px;
+    height: 200px;
+  }
 
+  //font adjustments
+  .fa {
+    padding: 40px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #4B54B3;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #4B54B3;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .fa-yelp {
+    background: #4B54B3;
+    color: white;
+  }
+
+  .mediabtn{
+      font-size: 50px;
+      float: left;
+      padding-right: 40px;
+  }
+  
+  .mediabtn a{
+    display: block;
+}
+
+//contact information on index
+.contact{
+    float: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    font-size: 40px;
+}
+
+.contact h2{
+    font-size: 70px;
+}
+
+//map on index
+.map{
+    float: right;
+}
+
+.map h2{
+    font-size: 70px;
+}
+
+//header for pages
+.title{
+    font-size: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+//tagline on index
+.tagline{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+.tagline h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+//index page
+body{
+    background-color: #FFEFB5;
+}
+
+//about page
+.history{
+    margin-left: 50px;
+}
+.nothistory{
+    margin: 50px;
+}
+.content{
+    margin: 50px;
+}
+
+//order
+.under{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}

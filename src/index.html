@@ -1,31 +1,75 @@
 <!DOCTYPE html> 
 <html class="no-js" lang="en">
     <head>
+
+        <!-- Number 6: Use of a constent logo, color etc.  I used color palette to create complimentry colors
+        I also use the same navigation, favicon, and footer for consistancy across all pages-->
         <title>Wiener Works, INC</title>
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/styles.css">
+
+        <!-- Number 4: Use if favicon -->
         <link rel="shortcut icon" href="assets/images/Kitty.png" type="image/x-icon" alt="creator icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
-        <nav>
-            <ul>
-                <img src="assets/images/logo.png" alt="Restaurant Logo">
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="order.html">Order</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a class="active" href="index.html">Home</a></li>
-            </ul>
-        </nav>
+        <container class="index">
+            <nav>
+                <ul>
+                    <img src="assets/images/logo.png" alt="Restaurant Logo">
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="index.html">Home</a></li>
+                </ul>
+            </nav>
 
-        <h1>Home</h1>
+            <h1 class="title">Wiener Works</h1>
 
-        <footer><small>&copy; Copyright 2020 JD Alton</small></footer>
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/popper.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
+        <section class="row"> 
+            <aside class="mediabtn">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-yelp"></a>
+            </aside>
+
+            <!-- Number 5: Information on Business and location-->
+            <section class="contact">
+                <h2>Contact Us</h2>
+                    <p>Wiener Works</p>
+                    <p>5207 Madison Ave</p>
+                    <p>Sacramento, CA 95841</p>
+                    <p>(916) 334-8711</p>
+            </section> 
+
+            <section class="map">       
+                <h2> Visit Us</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3115.463495596603!2d-121.34572444963926!3d38.66121477950767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809aded090de98cf%3A0xf2c19b3654a8b8cc!2sWiener%20Works!5e0!3m2!1sen!2sus!4v1584158702193!5m2!1sen!2sus" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>            
+            </section>
+        </section>  
+            <section class="tagline">
+            <h2>Let's face the cold, delicious facts: sometime between breakfast and dinner, you’re gonna need a lunch break. Don’t stop at a brown bag — get out of the office and find a quick lunch spot near you. Explore these lunchtime heroes before you decide on your favorite.</h2>
+            
+            <!-- Number 5: information on staff-->
+            <h2>Whether you’re here for take-out, gathering of friends and family, or a meal for one, you are in for a great staff experience that will leave you with a lasting impression of quality. </h2>
+        </section>
+    
+        <!-- Number 3: Here is one example of a gallery-->
+        <section class="row">
+            <img class="col" src="assets/images/Image1.jpg" alt="hot dog with smoke gouda">
+            <img class="col" src="assets/images/image2.jpg" alt="chicago dog">
+            <img class="col" src="assets/images/image3.jpg" alt="sourkraut dog">
+            <img class="col" src="assets/images/image4.jpg" alt="fiesta dog">
+        </section>
+
+            <footer><small>&copy; Copyright 2020 JD Alton</small></footer>
+            <script src="/js/jquery.min.js"></script>
+            <script src="/js/popper.min.js"></script>
+            <script src="/js/bootstrap.min.js"></script>
+        </container>
     </body>
 </html>
