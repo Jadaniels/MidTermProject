@@ -114,4 +114,14 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  width: 80%;
+  height: 80%; }
+
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+h3 {
+  text-align: center; }
