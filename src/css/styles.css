@@ -126,11 +126,11 @@ figure img {
 h3 {
   text-align: center; }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   .carousel-multi-item-2 .col-md-3 .row .tagline {
     float: left;
     width: 25%;
-    max-width: 100%; } }
+    max-width: 80%; } }
 
 .carousel-multi-item-2 .card img {
   border-radius: 2px; }
