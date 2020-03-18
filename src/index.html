@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
-<!-- Responsive design for contact and images.  Maybe add some padding to words above images -->
+<!-- Response is ok.  Need to reduce all font and images -->
 
     <body>
   
@@ -71,17 +71,28 @@
         </section>
     
         <!-- Number 3: Here is one example of a gallery-->
+        <!-- Number 2: use of a popover.  I used the hover type and move the informtion to the top of image -->
         <section class="row">
-            <img class="col" src="assets/images/Image1.jpg" alt="hot dog with smoke gouda">
-            <img class="col" src="assets/images/image2.jpg" alt="chicago dog">
-            <img class="col" src="assets/images/image3.jpg" alt="sourkraut dog">
-            <img class="col" src="assets/images/image4.jpg" alt="fiesta dog">
+            <img class="col" data-toggle="popover" data-trigger="hover" data-content="Smokey Gouda Dog" data-placement="top"            src="assets/images/Image1.jpg" alt="hot dog with smoke gouda">
+            <img class="col" data-toggle="popover" data-trigger="hover" data-content="California's Chicago Dog" data-placement="top"    src="assets/images/image2.jpg" alt="chicago dog">
+            <img class="col" data-toggle="popover" data-trigger="hover" data-content="Sourkraut Dog" data-placement="top"               src="assets/images/image3.jpg" alt="sourkraut dog">
+            <img class="col" data-toggle="popover" data-trigger="hover" data-content="The Fiesta Dog" data-placement="top"              src="assets/images/image4.jpg" alt="fiesta dog">
         </section>
 
-            <footer><small>&copy; Copyright 2020 JD Alton</small></footer>
+            <!-- Footer for the page -->
+        <footer><small>&copy; Copyright 2020 JD Alton</small></footer>
+            
             <script src="/js/jquery.min.js"></script>
             <script src="/js/popper.min.js"></script>
             <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Initiates the script to allow popovers -->
+        <script>
+            $(document).ready(function(){
+                $('[data-toggle="popover"]').popover();
+                });
+        </script>
+        
         </container>
     </body>
 </html>
